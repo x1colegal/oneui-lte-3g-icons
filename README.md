@@ -163,6 +163,12 @@ A firmware update may therefore require a new module version even when the CSC r
 
 Use this module at your own risk. Root modifications can cause boot problems, UI crashes, failed updates, or unexpected carrier-specific behavior. Keep a working Magisk recovery/removal method available before installing experimental modules.
 
+## Compatibility
+
+This module has been tested on a Samsung Galaxy S24 (Exynos) running One UI 8.5.
+
+It may also work on older or newer One UI versions, provided that the device uses the same Samsung CarrierFeature and SystemUI logic. Compatibility with other devices, chipsets, CSCs, or firmware versions is not guaranteed.
+
 ## Author
 
 Created by **x1co**.
