@@ -2,17 +2,13 @@
 
 A Magisk module that changes Samsung One UI's mobile-network labels on devices using the **EUX** CSC/OMC profile.
 
-## What it changes
+## Result
 
-| Actual network | Status-bar label |
+| Network type | Status bar icon |
 |---|---|
-| UMTS | 3G |
-| HSDPA | 3G |
-| HSUPA | 3G |
-| HSPA | 3G |
-| HSPA+ | 3G |
+| UMTS / HSDPA / HSUPA / HSPA / HSPA+ | 3G |
 | LTE | LTE |
-| LTE with carrier aggregation | LTE+ |
+| LTE with Carrier Aggregation | LTE+ |
 
 This module only changes the icon mapping shown by SystemUI. It does **not** change the modem, radio technology, network speed, carrier aggregation, or connectivity behavior.
 
@@ -167,7 +163,7 @@ Use this module at your own risk. Root modifications can cause boot problems, UI
 
 This module has been tested on a Samsung Galaxy S24 (Exynos) running One UI 8.5.
 
-It may also work on older or newer One UI versions, provided that the device uses the same Samsung CarrierFeature and SystemUI logic. Compatibility with other devices, chipsets, CSCs, or firmware versions is not guaranteed.
+It may also work on older or newer One UI versions, provided that the device uses the same Samsung CarrierFeature and SystemUI logic. Compatibility with other devices, chipsets, CSCs, or firmware versions is not guaranteed. on older OneUIs, you will have to change the module to disable the Android API restrictions. on newer ones, you CAN try flash, but working is NOT guaranteed. Samsung CAN change the paramters on SystemUI or Carrier Config Binary JSON.
 
 ## Author
 
