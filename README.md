@@ -161,7 +161,7 @@ Use this module at your own risk. Root modifications can cause boot problems, UI
 
 ## Compatibility
 
-This module has been tested on a Samsung Galaxy S24 (Exynos) running One UI 8.5.
+This module has been tested on a Samsung Galaxy S24 (Exynos) running One UI 8.5 - UPDATE: Also working on OneUI 9
 
 It may also work on older or newer One UI versions, provided that the device uses the same Samsung CarrierFeature and SystemUI logic. Compatibility with other devices, chipsets, CSCs, or firmware versions is not guaranteed. on older OneUIs, you will have to change the module to disable the Android API restrictions. on newer ones, you CAN try flash, but working is NOT guaranteed. Samsung CAN change the paramters on SystemUI or Carrier Config Binary JSON.
 
